@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Text-Query-Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Query-Simple-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Query-Simple-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,7 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Text-Query-Simple - matches text against simple query expression.
 
 %description -l pl
-Text-Query-Simple - wyszukuje tekst przy pomocy prostych wyra¿eñ regularnych.
+Text-Query-Simple - wyszukuje tekst przy pomocy prostych wyra¿eñ
+regularnych.
 
 %prep
 %setup -q -n Text-Query-Simple-%{version}
