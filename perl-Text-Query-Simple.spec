@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Query-Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Query-Simple perl module
 Summary(pl):	Modu³ perla Text-Query-Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Text-Query-Simple - wyszukuje tekst przy pomocy prostych wyra¿eñ
 regularnych.
 
 %prep
-%setup -q -n Text-Query-Simple-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
