@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Query-Simple
-Summary:	Text-Query-Simple perl module
-Summary(pl):	Modu³ perla Text-Query-Simple
+Summary:	Text::Query::Simple perl module
+Summary(pl):	Modu³ perla Text::Query::Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Query-Simple - matches text against simple query expression.
+Text::Query::Simple - matches text against simple query expression.
 
 %description -l pl
-Text-Query-Simple - wyszukuje tekst przy pomocy prostych wyra¿eñ
+Text::Query::Simple - wyszukuje tekst przy pomocy prostych wyra¿eñ
 regularnych.
 
 %prep
