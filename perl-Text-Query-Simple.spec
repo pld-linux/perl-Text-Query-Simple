@@ -9,7 +9,7 @@ Summary:	Text::Query::Simple perl module
 Summary(pl):	Modu³ perla Text::Query::Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
