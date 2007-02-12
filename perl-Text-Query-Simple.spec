@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Query-Simple
 Summary:	Text::Query::Simple perl module
-Summary(pl):	Modu≥ perla Text::Query::Simple
+Summary(pl.UTF-8):   Modu≈Ç perla Text::Query::Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
 Release:	10
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Text::Query::Simple - matches text against simple query expression.
 
-%description -l pl
-Text::Query::Simple - wyszukuje tekst przy pomocy prostych wyraøeÒ
+%description -l pl.UTF-8
+Text::Query::Simple - wyszukuje tekst przy pomocy prostych wyra≈ºe≈Ñ
 regularnych.
 
 %prep
