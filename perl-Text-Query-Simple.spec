@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Query-Simple
 Summary:	Text::Query::Simple perl module
-Summary(pl.UTF-8):   Moduł perla Text::Query::Simple
+Summary(pl.UTF-8):	Moduł perla Text::Query::Simple
 Name:		perl-Text-Query-Simple
 Version:	0.03
 Release:	10
