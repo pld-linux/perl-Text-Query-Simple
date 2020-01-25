@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Query-Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Query::Simple perl module
 Summary(pl.UTF-8):	Moduł perla Text::Query::Simple
 Name:		perl-Text-Query-Simple
